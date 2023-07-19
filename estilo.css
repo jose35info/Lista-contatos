@@ -29,18 +29,29 @@ body {
     padding: 5px;
     /*border-bottom: 1px solid rgb(145, 141, 141);*/
     box-shadow: 0px 0px 1px rgb(44, 43, 43);
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
-.list-item__img{
+/*.list-item__img{
     display: flex;
     align-items: center;
     margin: 15px;
-}
-img{
+}*/
+.list-item___img{
     border-radius: 100px;
+    width: 80%;
 }
-li{
+/*.list-item-1___img{
+    width: 50%;
+    border-radius: 100%;
+}*/
+.list-item__email{
+    flex-grow: 1;
+}
+.list-item{
     list-style: none;
-    padding: 15px;
+    /*padding: 15px;*/
 }
 li:hover{
     background-color: #2ac4c4;
@@ -52,7 +63,6 @@ p{
 a{
     display: flex;
     flex-direction: column;
-    
     padding: 5px;
    margin: 0 0 5px 10px;
    
